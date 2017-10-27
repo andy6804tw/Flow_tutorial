@@ -18,7 +18,7 @@ $ cd Flow_tutorial
 
 ## 教學
 1. 修改VS Code設定檔
-> 由於VS Code本身就帶有JavaScript與TypeScript檢查的功能，會與Flow相衝到所以我們要關閉VS Code的檢查功能，在使用者設定中(喜好設定->設定)，加上下面這行設定值以免衝突
+> 由於VS Code本身就帶有JavaScript與TypeScript檢查的功能，會與Flow相衝到所以我們要關閉VS Code的檢查功能，在使用者設定中(喜好設定->設定)，加上下面這行設定值以免衝突
 ```js
 "javascript.validate.enable": false
 ```
@@ -62,7 +62,7 @@ $ npm install --save-dev babel-plugin-transform-flow-strip-types
   ]
 }
 ```
-7. 打包輸出移除Flow標記
+7. 打包輸出移除Flow標記
 > 完成設定後，之後babel在編譯時就會一併轉換Flow標記。下面的指令是把src目錄的檔案編譯到dist目錄中
 ```
 $ babel src -d dist
